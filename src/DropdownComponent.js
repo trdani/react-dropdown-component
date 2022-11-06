@@ -75,18 +75,18 @@ export default function DropdownComponent(props) {
 
   return (
     <div className="DropdownComponent-full">
-      <div className="DropdownComponent-title-div">
+      <div
+        className="DropdownComponent-title-div"
+        onClick={() => setDropdownArrowPushed(!dropdownArrowPushed)}
+      >
         <h3 className="DropdownComponent-title">{title}</h3>
-        <button
-          className="DropdownComponent-drop-button"
-          onClick={() => setDropdownArrowPushed(!dropdownArrowPushed)}
-        >
+        <span className="DropdownComponent-drop-arrow">
           {dropdownArrowPushed ? (
             <i className="arrow up"></i>
           ) : (
             <i className="arrow down"></i>
           )}
-        </button>
+        </span>
       </div>
       {dropdownArrowPushed ? (
         <div className="DropdownComponent-dropped-vals">

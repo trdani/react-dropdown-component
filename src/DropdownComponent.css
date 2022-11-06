@@ -27,6 +27,10 @@ button:hover {
   align-items: center;
 }
 
+.DropdownComponent-title-div:hover {
+  cursor: pointer;
+}
+
 h3.DropdownComponent-title {
   margin-top: 8px;
   margin-bottom: 8px;
@@ -56,15 +60,10 @@ h3.DropdownComponent-title {
   -webkit-transform: rotate(45deg);
 }
 
-.DropdownComponent-drop-button {
+.DropdownComponent-drop-arrow {
   border: none;
   margin: 0 0 0 12px;
   padding: 0px;
-}
-
-.DropdownComponent-drop-button:hover {
-  border: none;
-  background-color: transparent;
 }
 
 .DropdownComponent-dropped-vals {
