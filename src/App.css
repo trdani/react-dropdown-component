@@ -1,0 +1,11 @@
+.App-page-title {
+  margin-left: 24px;
+}
+
+.App-dropdowns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 12px;
+}

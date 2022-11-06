@@ -1,0 +1,10 @@
+{
+  "short_name": "Dropdown Demo",
+  "name": "Create dropdown menu with single and multi select",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
