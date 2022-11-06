@@ -13,6 +13,7 @@ button:hover {
 }
 
 .DropdownComponent-full {
+  align-self: flex-start;
   display: flex;
   flex-direction: column;
   margin: 12px;
